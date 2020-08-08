@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5% ; /*since default is 16px and we want to set it as  10px .so , 6.25  */
+    
+}
+
+body{
+    font-family: "Lato",sans-serif;
+    /* padding:3rem; */
+    font-weight: 400;
+    line-height: 1.7;
+    box-sizing: border-box;
+    color: #333333;
+  
+}
+
+.section{
+    position: relative;
+}
+
+.pic{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+}
+
+.background{
+   height: 100vh;
+}
